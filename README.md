@@ -16,7 +16,7 @@ Planned features:
 
 
 ## Usage
- - Install the module
+ - Install the module `npm install monitoro`
  - Import it in your express app
     ```javascript 
     const monitoro = require('monitoro')
