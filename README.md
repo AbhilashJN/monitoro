@@ -42,12 +42,12 @@ Dashboard for monitoring Bull queues, built using Express and React. Can be moun
 
 
 ## Screenshots
-![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss1.png)
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/docs/screenshots/ss1.png)
 
-![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss2.png)
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/docs/screenshots/ss2.png)
 
-![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss3.png)
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/docs/screenshots/ss3.png)
 
-![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss4.png)
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/docs/screenshots/ss4.png)
 
-![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss5.png)
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/docs/screenshots/ss5.png)
