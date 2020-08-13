@@ -28,8 +28,8 @@ Planned features:
     where queueConfigArray is an array of queue config objects of type
     ```json
     {
-        "name": <name of the bull queue>,
-        "url": <url to the redis instance>
+        "name": "<name of the bull queue>",
+        "url": "<url to the redis instance>"
     }
     ```
     For an example queueConfigArray check `server/devServer.js`
