@@ -1,0 +1,49 @@
+@keyframes slide-from-right{
+    0% {transform: translateX(50%); opacity:0}
+    100% {transform: translateX(0);opacity:1}
+}
+
+@keyframes fadein{
+    0%{ opacity:0}
+    75%{opacity:0}
+    100%{opacity:1}
+}
+
+.redis-stats-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:100%;
+    padding: 50% 0;
+    animation: slide-from-right 0.5s ease-out;
+
+}
+
+
+.redis-stats-section{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10% 0;
+    /* background-color:black; */
+    color: #f0f0f0;
+    /* background-image: linear-gradient(to right,#8E80ECCC,#5F8CBACC); */
+    width:80%;
+    margin: 2% 0;
+    /* border-radius:5px; */
+}
+
+.redis-stats-header{
+    /* color: #dddddd */
+    opacity: 0.8;
+    font-size: 80%;
+
+}
+
+.redis-stats-value{
+    color: #34b1ef;
+    font-weight: bold;
+    font-size: 120%;
+
+}

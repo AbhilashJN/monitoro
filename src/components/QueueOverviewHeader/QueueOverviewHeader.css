@@ -1,0 +1,56 @@
+.QueueOverviewHeader-Container{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 0 0 5px 0;
+    font-size: 85%;
+    font-weight:bold;
+    text-transform: capitalize;
+    opacity: 0.8;
+    color: #f0f0f0;
+    border-bottom: 2px solid #cccccc66;
+}
+
+.QueueOverviewHeader-left {
+    display:flex;
+    flex: 1;
+    align-items:center;
+    justify-content: flex-start;
+    margin:0;
+}
+
+.QueueOverviewHeader-right {
+    display:flex;
+    flex: 3;
+    margin:0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+
+.QueueOverviewHeader-open-button{
+    display:flex;
+    align-self:stretch;
+    width:8%;
+    padding:3% 0%;
+    margin: 0 2% 0 0;
+}
+
+.QueueOverviewHeader-label {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 40px;
+}
+
+
+.QueueOverviewHeader-label-xl {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+}

@@ -1,0 +1,8 @@
+.App{
+  width:100vw;
+  min-width: 1000px;
+  height:100vh;
+  background-image: linear-gradient(#3E4956,#151A21);
+  display:flex;
+  flex-direction:column
+}

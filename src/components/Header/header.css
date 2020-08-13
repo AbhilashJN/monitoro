@@ -1,0 +1,15 @@
+.header-container {
+    display:flex;
+    align-items: center;
+    width:100%;
+    padding: 10px 0%;
+    background-image: linear-gradient(to right,#8E80ECCC,#5F8CBACC);
+}
+
+.header-text{
+    padding-left: 12px;
+    margin: 0;
+    color: #ffffff;
+    font-size: 120%;
+}
+

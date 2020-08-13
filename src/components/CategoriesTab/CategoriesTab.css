@@ -1,0 +1,74 @@
+@keyframes slide-from-left{
+    0% {transform: translateX(-50%); opacity:0}
+    100% {transform: translateX(0);opacity:1}
+}
+
+@keyframes fadein{
+    0%{ opacity:0}
+    75%{opacity:0}
+    100%{opacity:1}
+}
+
+.CategoriesTab-container {
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    margin-top:10vw;
+    animation: slide-from-left 0.5s ease-out;
+}
+
+.CategoriesTab-tab {
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10% 15%;
+    color:grey;
+    cursor:pointer
+}
+
+.CategoriesTab-tab:hover{
+    background-color: #4287f522
+}
+
+.CategoriesTab-tab-icon{
+    width:25px;
+    height:25px;
+    padding: 10px;
+}
+
+
+.CategoriesTab-tab-label{
+    align-items: center;
+    text-transform: capitalize;
+    font-size: 90%;
+}
+
+.CategoriesTab-selected-tab{
+    color: #f0f0f0;
+}
+
+.CategoriesTab-selected-tab > img{
+    filter: brightness(0) invert(1);
+}
+
+.CategoriesTab-selected-tab > .CategoriesTab-tab-jobCount{
+    background-color:#777777
+}
+
+.CategoriesTab-tab-jobCount{
+     /* background-color: #eeeeee; */
+     margin:2% 10px;
+     padding:1% 2%;
+     text-align: center;
+     border-radius:50%;
+     font-size: 90%;
+     animation: fadein 0.75s ease-in;
+     font-weight: bold
+}
+
+.CategoriesTab-selectedCount{
+    /* background-color:#000000 */
+}
+

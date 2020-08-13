@@ -1,0 +1,122 @@
+@keyframes slideup {
+    0% { }
+    50% { opacity:0}
+    100% { transform: translateY(0);opacity: 1; }
+}
+
+
+.scalein{
+    transform: translateX(100vw);
+    opacity:0;
+    transition: all 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.QueueDetailsPage-container{
+    display:flex;
+    width: 100%;
+    flex:1;
+    overflow-y: hidden;
+}
+
+.QueueDetailsPage-categories-tab{
+    display:flex;
+    flex-direction: column;
+    /* margin-left: 5px; */
+    width:10%;
+    /* background-color: #f2f4f5; */
+    /* background-color:  #2f1163; */
+    /* border-right: 1px solid #eeeeee; */
+    /* background-color: #181D24; */
+    background-image: linear-gradient(#21282d,#000000);
+
+
+}
+
+
+.QueueDetailsPage-main-container{
+    display:flex;
+    flex-direction: column;
+    width:75%;
+    overflow-y:hidden
+}
+
+.QueueDetailsPage-overview-tab{
+    display:flex;
+    flex-direction: column;
+    width:15%;
+    /* background-color:  #2f1163; */
+    /* background-color: #f2f4f5; */
+    background-image: linear-gradient(#21282d,#000000);
+    
+    /* background-color: #181D24 */
+
+}
+
+.QueueDetailsPage-jobs-container{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 95%;
+    margin-top:1%;
+    transform: translateY(100vw);
+    opacity: 0;
+    animation: slideup 0.4s ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 0.2s;
+    overflow-y: hidden;
+    background-image: linear-gradient(#2f3944,#181E25);
+    box-shadow: 0px 0px 10px 0px #222a33;
+    border-radius: 20px 
+}
+
+.QueueDetailsPage-scrollable-container{
+    display:flex;
+    flex:1;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    width: 100%;
+    padding: 0;
+    margin-top: 1%;
+    overflow-y: scroll
+}
+
+.QueueDetailsPage-title-row{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.QueueDetailsPage-title{
+    display:flex;
+    align-items: center;
+    font-size: 250%;
+    padding: 0 3%;
+    height: 50px;
+    text-transform:capitalize;
+    color: #f0f0f0;
+    font-weight: bolder;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+
+.QueueDetailsPage-back-btn{
+    height: 30px;
+    width: 30px;
+    padding-right:15px;
+    opacity: 0.6;
+    cursor: pointer;
+}
+
+.QueueDetailsPage-search-subtitle{
+    color: #f0f0f0;
+    opacity: 0.8;
+    font-size: 90%;
+    font-style: italic;
+    padding:0% 3%;
+}

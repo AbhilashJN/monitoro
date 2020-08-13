@@ -1,0 +1,12 @@
+body{
+  padding:0px;
+  margin:0px;
+  font-family: 'DidactGothic', sans-serif
+}
+
+@font-face{
+  font-family: 'DidactGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('DidactGothic'), url(./fonts/DidactGothic-Regular.ttf) format('truetype')
+}

@@ -1,0 +1,39 @@
+.statbox-border{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    padding:0px;
+    /* background-image: linear-gradient(#272E37, #272E37), linear-gradient(to right,#8E80EC77,#5F8CBA77); */
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    background-color: #2b3540;
+    box-shadow: 0px 0px 5px -3px #222a33
+}
+
+.statbox-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:10vw;
+    height:8vw;
+    color: #f0f0f0;
+    /* background-color:#00000044; */
+}
+
+.statbox-label{
+    font-weight: bold;
+    font-size: 80%;
+    /* color: #54a8f7 */
+
+}
+
+.statbox-value{
+    font-weight: 100;
+    font-size: 250%;
+    margin-top: 10px;
+    /* color: #54a8f7 */
+}
