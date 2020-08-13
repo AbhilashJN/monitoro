@@ -16,8 +16,8 @@ Dashboard for monitoring Bull queues, built using Express and React. Can be moun
     where queueConfigArray is an array of queue config objects of type
     ```json
     {
-        "name": <name of the bull queue>,
-        "url": <url to the redis instance>
+        "name": "<name of the bull queue>",
+        "url": "<url to the redis instance>"
     }
     ```
     For an example queueConfigArray check `server/devServer.js`
@@ -39,3 +39,15 @@ Dashboard for monitoring Bull queues, built using Express and React. Can be moun
 
 ## Contributions
  Suggestions, feedback, ideas are welcome
+
+
+## Screenshots
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss1.png)
+
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss2.png)
+
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss3.png)
+
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss4.png)
+
+![Screenshot](https://raw.githubusercontent.com/AbhilashJN/monitoro/master/screenshots/ss5.png)

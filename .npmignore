@@ -25,3 +25,6 @@ src/*
 public/*
 server/server.js
 .storybook/*
+
+#screenshots
+docs/screenshots
