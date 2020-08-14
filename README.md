@@ -40,7 +40,7 @@ Planned features:
     ```
     subdirectories can also be used:
     ```javascript
-    app.use('foo/bar',monitoro)
+    app.use('/foo/bar',monitoro)
     ```
  - Check `server/devServer.js` for a simple example of usage
  
