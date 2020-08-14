@@ -4,6 +4,11 @@
   "main": "index.js",
   "author": "abhilashjn",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AbhilashJN/monitoro.git"
+    },
+  "description": "Dashboard for monitoring Bull queues, built using Express and React. Can be mounted as middleware in an existing express app.",
   "bugs": {
     "url": "https://github.com/AbhilashJN/monitoro/issues"
   },
