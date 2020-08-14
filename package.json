@@ -1,9 +1,17 @@
 {
   "name": "monitoro",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "index.js",
   "author": "abhilashjn",
-  "keywords": ["bull", "dashboard", "queue", "monitor", "monitoring","job queue", "redis"],
+  "keywords": [
+    "bull",
+    "dashboard",
+    "queue",
+    "monitor",
+    "monitoring",
+    "job queue",
+    "redis"
+  ],
   "homepage": ".",
   "dependencies": {
     "bull": "^3.13.0",
