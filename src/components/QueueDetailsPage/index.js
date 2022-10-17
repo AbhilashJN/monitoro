@@ -18,9 +18,7 @@ function QueueDetailsPage(props){
         },
         allJobsDetails:[]
     }
-    const apiUrl = process.env.NODE_ENV==='development' 
-    ? `/` 
-    : ''
+    const apiUrl = process.env.API_URL
     const [jobData,setJobData] = useState(initialState)
     const [selectedCategory,setSelectedCategory] = useState('all')
     const [searchKey,setSearchKey] = useState('')
